@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1255b415-14e1-46d5-97a3-64b0a2c62ef1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pSPi29FJNWBHbEnCGxktoPjnnt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.14355469" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Idear-Workspace\day48_mybatis\src\com\zhiyou\mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Idear-Workspace\day48_mybatis\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestCache.selectOne2">
+    <configuration name="MybatisTest.lazyLoading" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day48_mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhiyou.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhiyou.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zhiyou.test.MybatisTest" />
+      <option name="METHOD_NAME" value="lazyLoading" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.lazyLoading2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day48_mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhiyou.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhiyou.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zhiyou.test.MybatisTest" />
+      <option name="METHOD_NAME" value="lazyLoading2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.updateStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day48_mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhiyou.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhiyou.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zhiyou.test.MybatisTest" />
+      <option name="METHOD_NAME" value="updateStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCache.selectOne2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day48_mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhiyou.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhiyou.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zhiyou.test.TestCache" />
+      <option name="METHOD_NAME" value="selectOne2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCache.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day48_mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhiyou.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhiyou.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zhiyou.test.TestCache" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestCache.selectOne2" />
+        <item itemvalue="JUnit.MybatisTest.updateStudent" />
+        <item itemvalue="JUnit.TestCache.test01" />
+        <item itemvalue="JUnit.MybatisTest.lazyLoading2" />
+        <item itemvalue="JUnit.MybatisTest.lazyLoading" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1255b415-14e1-46d5-97a3-64b0a2c62ef1" name="Default Changelist" comment="" />
+      <created>1615173641886</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615173641886</updated>
+      <workItem from="1615173644597" duration="31922000" />
+      <workItem from="1615251886680" duration="30389000" />
+      <workItem from="1615338391528" duration="2322000" />
+      <workItem from="1615699448884" duration="188000" />
+      <workItem from="1615701241200" duration="37000" />
+      <workItem from="1618400058737" duration="34000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1093" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1615283206660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1093" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1615283206660" />
+    <state x="1110" y="225" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1615173746846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1110" y="225" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615173746846" />
+    <state x="1010" y="280" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1615173748551">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1010" y="280" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615173748551" />
+    <state x="1054" y="267" key="FileChooserDialogImpl" timestamp="1615179309384">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1054" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615179309384" />
+    <state width="1529" height="440" key="GridCell.Tab.0.bottom" timestamp="1615303764616">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1529" height="440" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615303764616" />
+    <state width="1529" height="440" key="GridCell.Tab.0.center" timestamp="1615303764616">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1529" height="440" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615303764616" />
+    <state width="1529" height="440" key="GridCell.Tab.0.left" timestamp="1615303764616">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1529" height="440" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615303764616" />
+    <state width="1529" height="440" key="GridCell.Tab.0.right" timestamp="1615303764616">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1529" height="440" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615303764616" />
+    <state width="1703" height="340" key="GridCell.Tab.1.bottom" timestamp="1615217080079">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1703" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615217080079" />
+    <state width="1703" height="340" key="GridCell.Tab.1.center" timestamp="1615217080079">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1703" height="340" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615217080079" />
+    <state width="1703" height="340" key="GridCell.Tab.1.left" timestamp="1615217080079">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1703" height="340" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615217080079" />
+    <state width="1703" height="340" key="GridCell.Tab.1.right" timestamp="1615217080079">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1703" height="340" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615217080079" />
+    <state x="361" y="195" key="SettingsEditor" timestamp="1618400098378">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="361" y="195" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1618400098378" />
+    <state x="738" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1615338629328">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="738" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615338629328" />
+    <state x="987" y="428" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1615180448316">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="987" y="428" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1615180448316" />
+    <state x="553" y="134" key="new project wizard" timestamp="1615342846061">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="553" y="134" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1615342846060" />
+  </component>
+</project>

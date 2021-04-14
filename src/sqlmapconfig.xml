@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--     加载配置文件-->
+    <properties resource="db.properties"/>
+<!--&lt;!&ndash;    基本配置&ndash;&gt;-->
+    <settings>
+<!--        开启二级缓存-->
+        <setting name="cacheEnabled" value="true"/>
+<!--        懒加载-->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="false"/>
+<!--        日志-->
+        <setting name="logImpl" value="STDOUT_LOGGING" />
+
+    </settings>
+    
+    <!--    别名:映射文件resultType 省略简写类路径-->
+    <typeAliases>
+<!--        每个单独的类取名-->
+<!--        <typeAlias type="" alias=""</typeAlias>-->
+<!--        给包下所有类取别名,别名就是类名-->
+        <package name="com.zhiyou"/>
+    </typeAliases>
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+<!--    加载映射文件-->
+    <mappers>
+        <package name="com.zhiyou.mapper"/>
+<!--        <mapper resource="com/zhiyou/mapper/UserMapper.xml"/>-->
+    </mappers>
+</configuration>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--接口路径-->
+<mapper namespace="com.zhiyou.mapper.StudentMapper">
+<!--===============================================================    一对一      =   ========================================-->
+    <!--
+          关联查询需要使用resultMap
+      -->
+    <resultMap id="stuclassMap" type="Student">
+<!--        封装自己的属性-->
+<!--        id标签只用于封装主键列-->
+        <id   property="sid" column="sid"/>
+        <result property="sname" column="sname"/>
+        <result property="score" column="score"/>
+        <result property="cid" column="cid"/>
+        <result property="sbirthday" column="sbirthday"/>
+        <result property="zid" column="zid"/>
+<!--        一对一封装标签-->
+        <association property="aClass" javaType="com.zhiyou.model.Class">
+            <id property="cid" column="cid"/>
+            <result property="cname" column="cname"/>
+        </association>
+    </resultMap>
+
+<select id="findStudentAndClass" resultMap="stuclassMap">
+    select s.*,c.cid,c.cname from student s left join class c on s.cid = c.cid;
+</select>
+
+
+
+<!--  ==============================================  一对多  ===========================================-->
+
+<resultMap id="classStuMap" type="Student">
+<!--    封装自己的属性-->
+    <id property="cid" column="cid"/>
+    <result property="cname" column="cname"/>
+<!--   ===============    一会多标签    ======================= -->
+    <collection property="student" ofType="com.zhiyou.model.Student">
+        <id property="sid" column="sid"/>
+        <result property="sname" column="sname"/>
+        <result property="cid" column="cid"/>
+        <result property="sbirthday" column="sbirthday"/>
+    </collection>
+</resultMap>
+    <select id="findClassAndStudent" resultMap="classStuMap">
+        select s.*,c.cid.c.cname from student s right join class c on s.cid = c.cid;
+    </select>
+
+
+<!--    =================================  一对一 延迟加载 ============================-->
+    <resultMap id="lazyLodingMap" type="Student">
+        <id property="sid" column="sid"/>
+        <result property="sname" column="sname"/>
+        <result property="score" column="score"/>
+        <result property="cid" column="cid"/>
+        <result property="sbirthday" column="sbirthday"/>
+        <result property="zid" column="zid"/>
+        <!--
+         prperty:学生设置的编辑属性
+         column:关联的列
+         select:另外一个Statement
+-->
+        <association property="aClass" column="cid" select="com.zhiyou.mapper.StudentMapper.findClassById"/>
+    </resultMap>
+    <select id="findStudentAndClassByLazyLoding" resultMap="lazyLodingMap">
+        select s.*,c.cid,c.cname from student s left join class c on s.cid = c.cid;
+    </select>
+    <select id="findClassById" parameterType="int" resultType="class">
+        select * from class where cid = #{cid}
+    </select>
+
+    <!--    =================================  一对多延迟加载  ============================-->
+    <resultMap id="lazyLodingMap2" type="Class">
+<!--        封装自己的属性-->
+        <id property="cid" column="cid"/>
+        <result property="cname" column="cname"/>
+<!--        一对多标签-->
+        <collection property="student" column="cid" select="com.zhiyou.mapper.StudentMapper.findStudentById">
+            <id property="sid" column="sid"></id>
+            <result property="sname" column="sname"/>
+            <result property="score" column="score"/>
+            <result property="cid" column="cid"/>
+            <result property="sbirthday" column="sbirthday"/>
+            <result property="zid" column="zid"/>
+        </collection>
+    </resultMap>
+
+
+    <select id="findClassAndStudentLazyLoding" resultMap="lazyLodingMap2">
+         select s.*,c.cid,c.cname from student s left join class c on s.cid = c.cid;
+    </select>
+    <select id="findStudentById" parameterType="int" resultType="Student">
+        select * from student where cid = #{cid}
+    </select>
+
+    <update id="updateStudent" >
+        update student set  sname = #{sname} where sid = #{sid}
+    </update>
+</mapper>
